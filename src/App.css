@@ -1,0 +1,61 @@
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  text-align: center;
+  height: 100vh;
+}
+.nav {
+  background-color: #58585a;
+  height: 60px;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 19px;
+  margin-bottom: 0;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.nav .img {
+  width: 30px;
+}
+
+.nav .activeLink {
+  color: red;
+}
+
+.home {
+  height: 67vh;
+}
+.home__img {
+  width: 300px;
+}
+
+.pokemon-form {
+  height: 33vh;
+}
+.pokemon-form div select {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 43px;
+}
+
+.container-details {
+  border: 1px solid black;
+  width: 50%;
+  padding: 20px 50px;
+  margin-top: 50px;
+}
+
+.container-details figure {
+  width: 70%;
+}
+.container-details figure img {
+  width: 70%;
+}
+.container-details ul {
+  text-align: left;
+}
